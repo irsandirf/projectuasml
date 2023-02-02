@@ -13,7 +13,7 @@ def load_prediction_model(model_file):
 
 def main():
     html_templ = """<center><h2 style="", text-align="center">Prediksi Gaji Karyawan Berdasarkan Pengalaman dengan Linear Regression</h2></center>"""
-    html_temp2 = """<center><i><p style="", text-align="center">Project Machine Learning - 3 TI E</p></i></center>"""
+    html_temp2 = """<center><i><p style="", text-align="center">Project Machine Learning - 3 TI A</p></i></center>"""
     st.markdown(html_templ,unsafe_allow_html=True)
     st.markdown(html_temp2,unsafe_allow_html=True)
 
@@ -76,12 +76,8 @@ def main():
             import matplotlib.pyplot as plt
             import random 
             """)
-        st.markdown("""
-            ## Anggota Kelompok :
-            1. Satria Tofa Anugrah
-            2. Soeltan Bima Manggala Sidi
-            3. Vito Baihaki Afif
-            """)
+        
+            
 
 if __name__ == '__main__':
     main()
